@@ -1,0 +1,151 @@
+
+/* Colours */
+.bg-dark {
+    background-color: #333333!important;
+}
+.text-light {
+    color: #9A9DA0!important;
+}
+.banner-dark {
+    background-color: #101010!important;
+}
+.cta-overlay {
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#e6000000',GradientType=0 );
+    cursor: pointer;
+}
+.cta-overlay .border {
+    /* border: 1px solid #ffffff; */
+    /* padding: 20%; */
+    padding: 15%;
+    transition: 2s;
+}
+.cta-overlay:hover .border {
+    /* padding: 15%; */
+    padding: 10%;
+    transition: 2s;
+}
+
+/* Generic */
+h1, h2, h3, .h1, .h2, .h3 {
+	font-family: 'Merienda One', cursive!important;
+    color: #ffffff;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;
+    color: #9A9DA0;
+    background-color: #000;
+}
+.text-nodecoration:hover {
+	text-decoration: none;
+}
+
+/* Header */
+.navbar-brand {
+    font-size: 1.8rem;
+	font-family: 'Merienda One', cursive!important;
+}
+
+/* Home Page */
+.home-img-1, .home-img-2, .home-img-3 {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.home-img-1 {
+    background-image: url(/portfolio/img/webdesign/topteks-home.png);
+    background-position: center top;
+    background-size: cover;
+}
+.home-img-2 {
+    background-image: url(/portfolio/img/photography/topteks-home.png);
+    background-position: center center;
+    background-size: cover;
+}
+.home-img-3 {
+    background-image: url(/portfolio/img/visualarts/topteks-home.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Web Design */
+.webdesign .mainimage {
+    max-height: 275px;
+    overflow: hidden;
+}
+.webdesign .cta-overlay {
+	display: none!important;
+    transition: 2s;
+}
+.webdesign .mainimage:hover .cta-overlay {
+    position: absolute;
+    top: 1rem;
+    height: 300px;
+    max-width: 92%;
+    display: flex!important;
+    transition: 2s;
+}
+.webdesign .mainimage:hover .cta-overlay div {
+    width: 90%;
+}
+.webdesign .cta-overlay div, .webdesign .cta-overlay:hover div {
+	padding: 10%;
+}
+.web .modal-dialog {
+    margin: 0% 0% 0% 40%;
+    max-width: 100%;
+}
+.modal.web {
+    padding-right: 0px!important;
+background: -moz-linear-gradient(top,  rgba(51,51,51,0.8) 0%, rgba(51,51,51,0.8) 100%);
+background: -webkit-linear-gradient(top,  rgba(51,51,51,0.8) 0%,rgba(51,51,51,0.8) 100%);
+background: linear-gradient(to bottom,  rgba(51,51,51,0.8) 0%,rgba(51,51,51,0.8) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc333333', endColorstr='#cc333333',GradientType=0 );
+
+}
+.web .modal-body {
+    background: #333333;
+}
+.web .modal-content {
+    border-radius: 0;
+}
+.web .modal-header {
+    border-radius: 0;
+    border-bottom: none;
+}
+
+/* Photograghy */
+h1.estitle {
+    display: none!important;
+	color: #fff!important;
+}
+
+/* Visual Arts */
+.filterDiv {
+  display: none;
+}
+.show {
+  display: block;
+}
+#myBtnContainer .btn {
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 0px;
+    color: white;
+    margin: 0% 1%;
+}
+#myBtnContainer .btn.active, #myBtnContainer .btn:hover {
+    background: -moz-linear-gradient(top, rgba(154,157,160,0) 0%, rgba(77,79,80,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(154,157,160,0) 0%,rgba(77,79,80,1) 100%);
+    background: linear-gradient(to bottom, rgba(154,157,160,0) 0%,rgba(77,79,80,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009a9da0', endColorstr='#4d4f50',GradientType=0 );
+}
+
+/* My Profile */
