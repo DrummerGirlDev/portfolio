@@ -19,7 +19,7 @@
 	</div>
 </section>
 
-<!--  -->
+<!-- Filtered images -->
 <section class=''>
 	<div class='container'>
 
@@ -42,7 +42,7 @@
 		$designquery = mysqli_query ($link, "SELECT * FROM visualarts_images WHERE vai_live=1 ORDER BY vai_order");
 		//vai_id, vai_image, vai_name, vai_desc, vai_live, vai_linkid1, vai_linkid2, vai_linkid3, vai_order
 		if(mysqli_num_rows($designquery) > 0){
-			echo "<div class='row pb-5'>";
+			echo "<div class='masonry pb-5'>";
 				while ( $des = mysqli_fetch_array($designquery) ) {
 					
 					if(!EMPTY($des['vai_linkid1'])) {$class1 = " ".$des['vai_linkid1']."";} else {$class1 = "";}

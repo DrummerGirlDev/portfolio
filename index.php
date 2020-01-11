@@ -7,7 +7,7 @@
 		<div class='row py-5'>
 			<div class='col-md-4'>
 				<div class=''>
-					<img src='/images/myimage.jpg' alt='My Image' class='rounded-circle img-fluid m-auto' />
+					<img src='img/visualarts/myprofile.jpg' alt='My Image' class='rounded-circle img-fluid m-auto' />
 				</div>
 			</div>
 			<div class='col-md-8'>
