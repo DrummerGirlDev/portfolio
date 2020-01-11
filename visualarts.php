@@ -49,9 +49,9 @@
 					if(!EMPTY($des['vai_linkid2'])) {$class2 = " ".$des['vai_linkid2']."";} else {$class2 = "";}
 					if(!EMPTY($des['vai_linkid3'])) {$class3 = " ".$des['vai_linkid3']."";} else {$class3 = "";}
 					
-					echo "<div class='col-md-3 py-3 h-100'>";
-						echo "<div class='filterDiv".$class1."".$class2."".$class3."'><img src='img/visualarts/".$des['vai_image']."' alt='".$des['vai_name']."' class='img-fluid'/></div>";
-					echo "</div>";
+					//echo "<div class='col-md-3 py-3 h-100'>";
+						echo "<div class='filterDiv ".$class1."".$class2."".$class3."'><img src='img/visualarts/".$des['vai_image']."' alt='".$des['vai_name']."' class='img-fluid'/></div>";
+					//echo "</div>";
 				}
 			echo "</div>";
 		}

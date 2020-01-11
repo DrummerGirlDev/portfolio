@@ -125,10 +125,19 @@ h1.estitle {
 
 /* Visual Arts */
 .filterDiv {
-  display: none;
+	display: none;
+	padding-bottom: 1rem!important;
+	padding-top: 1rem!important;
+	height: 100%!important;
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .show {
-  display: block;
+	display: block;
 }
 #myBtnContainer .btn {
     border-bottom: 1px solid #ffffff;
