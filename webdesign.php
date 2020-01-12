@@ -21,7 +21,7 @@
 
 <!-- display designs -->
 <section class=''>
-	<div class='container'>
+	<div class='container-fluid'>
 		<div class='row py-5'>
 <?php
 		$sitequery = mysqli_query ($link, "SELECT * FROM webdesign_main WHERE wd_live=1 ORDER BY wd_order");

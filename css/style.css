@@ -184,7 +184,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc333333', e
 
 /* My Profile */
 .circle-wrap {
-  margin: 50px auto;
+  margin: 10% auto;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -240,11 +240,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc333333', e
 .circle-wrap.p50 .circle .mask.half:nth-of-type(2) {
     transform: rotate(0deg);
 }
-@keyframes fill {
+/* @keyframes fill {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(180deg);
   }
-}
+} */
