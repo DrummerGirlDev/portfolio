@@ -30,7 +30,7 @@
 			while ( $row = mysqli_fetch_array($sitequery) ) {
 			
 				echo "<div class='col-md-4 webdesign py-3'>";
-					echo "<a href='' type='button' class='text-nodecoration' data-toggle='modal' data-target='#".$row['wd_galleryname']."'>";
+					echo "<a href='' type='button' class='text-nodecoration w-100' data-toggle='modal' data-target='#".$row['wd_galleryname']."'>";
 					
 						echo "<div class='mainimage'>";
 						
@@ -43,7 +43,7 @@
 					}
 					
 						echo "<div class='cta-overlay d-flex align-items-center justify-content-center'>";
-							echo "<div class=''>";
+							echo "<div class='w-100'>";
 								echo "<p class='text-center text-white h3'>".$row['wd_sitename']."</p>";
 								if (!empty($row['wd_description'])) {
 									echo "<p class='text-center text-white text-truncate'>".$row['wd_description']."</p>";
@@ -104,8 +104,10 @@ if(mysqli_num_rows($sitequery) > 0){
 							while ( $des = mysqli_fetch_array($maindesignquery) ) {
 								echo "<div class='col-md-12'>";
 									echo "<p class=''>".$des['wdi_alt']."</p>";
-									echo "<img src='/portfolio/img/webdesign/".$des['wdi_image']."' alt='".$des['wdi_alt']."' class='img-fluid w-100 shadow'>";
-								
+									//echo "<div class='img-zoom-hover'>";
+										echo "<img src='/portfolio/img/webdesign/".$des['wdi_image']."' alt='".$des['wdi_alt']."' class='img-fluid w-100 shadow'>";
+									//echo "</div>";
+									
 									echo "<div class='d-flex justify-content-center py-5'>";
 										echo "<div class='border-bottom w-75'></div>";
 									echo "</div>";
