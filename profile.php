@@ -7,7 +7,7 @@
 		<div class='row py-5'>
 			<div class='col-md-2 d-md-flex align-items-center justify-content-center'>
 				<div class=''>
-					<img src="img/photography/myprofile2.jpg" alt="My Profile Image" class="rounded-circle img-fluid m-auto">
+					<img src="/img/photography/myprofile2.jpg" alt="My Profile Image" class="rounded-circle img-fluid m-auto">
 					<!--<i class="fas fa-edit fa-3x"></i>-->
 				</div>
 			</div>

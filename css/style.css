@@ -70,17 +70,17 @@ body {
     background-repeat: no-repeat;
 }
 .home-img-1 {
-    background-image: url(/portfolio/img/webdesign/topteks-home.png);
+    background-image: url(/img/webdesign/homeimage.png);
     background-position: center top;
     background-size: cover;
 }
 .home-img-2 {
-    background-image: url(/portfolio/img/photography/topteks-home.png);
+    background-image: url(/img/photography/homeimage.png);
     background-position: center center;
     background-size: cover;
 }
 .home-img-3 {
-    background-image: url(/portfolio/img/visualarts/topteks-home.png);
+    background-image: url(/img/visualarts/homeimage.png);
     background-position: center center;
     background-size: cover;
 }

@@ -50,7 +50,7 @@
 					if(!EMPTY($des['vai_linkid3'])) {$class3 = " ".$des['vai_linkid3']."";} else {$class3 = "";}
 					
 						echo "<div class='filterDiv ".$class1."".$class2."".$class3."'>";
-							echo "<img src='img/visualarts/".$des['vai_image']."' alt='".$des['vai_name']."' class='img-fluid'/>";
+							echo "<img src='/img/visualarts/".$des['vai_image']."' alt='".$des['vai_name']."' class='img-fluid'/>";
 							
 							echo "<div class='cta-overlay d-flex align-items-center justify-content-center px-4'>";
 								echo "<div class='w-100'>";

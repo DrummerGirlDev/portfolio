@@ -38,7 +38,7 @@
 						//wdi_id, wdi_image, wdi_alt, wdi_linkid, wdi_order, wdi_live, wdi_main, wdi_mobile
 					if(mysqli_num_rows($maindesignquery) > 0){
 						while ( $des = mysqli_fetch_array($maindesignquery) ) {
-							echo "<img src='/portfolio/img/webdesign/".$des['wdi_image']."' class='img-fluid w-100'>";
+							echo "<img src='/img/webdesign/".$des['wdi_image']."' class='img-fluid w-100'>";
 						}
 					}
 					
@@ -105,7 +105,7 @@ if(mysqli_num_rows($sitequery) > 0){
 								echo "<div class='col-md-12'>";
 									echo "<p class=''>".$des['wdi_alt']."</p>";
 									//echo "<div class='img-zoom-hover'>";
-										echo "<img src='/portfolio/img/webdesign/".$des['wdi_image']."' alt='".$des['wdi_alt']."' class='img-fluid w-100 shadow'>";
+										echo "<img src='/img/webdesign/".$des['wdi_image']."' alt='".$des['wdi_alt']."' class='img-fluid w-100 shadow'>";
 									//echo "</div>";
 									
 									echo "<div class='d-flex justify-content-center py-5'>";
@@ -125,7 +125,7 @@ if(mysqli_num_rows($sitequery) > 0){
 							while ( $des = mysqli_fetch_array($maindesignquery) ) {
 								echo "<div class='col-md-6'>";
 									echo "<p class=''>".$des['wdi_alt']."</p>";
-									echo "<img src='/portfolio/img/webdesign/".$des['wdi_image']."' alt='".$des['wdi_alt']."' class='img-fluid w-100 shadow'>";
+									echo "<img src='/img/webdesign/".$des['wdi_image']."' alt='".$des['wdi_alt']."' class='img-fluid w-100 shadow'>";
 								
 									echo "<div class='d-flex justify-content-center py-5'>";
 										echo "<div class='border-bottom w-75'></div>";
